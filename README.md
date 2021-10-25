@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Prerequisites
 
-Things you may want to cover:
+* Ruby 3.0.0
 
-* Ruby version
+* Postgresql
 
-* System dependencies
+## Setup project
 
-* Configuration
+Copy the project to your local machine. In project root folder, run:
 
-* Database creation
+* bundle install
 
-* Database initialization
+* bin/rails db:create
 
-* How to run the test suite
+* bin/rails db:migrate
 
-* Services (job queues, cache servers, search engines, etc.)
+## Check if app is working
 
-* Deployment instructions
-
-* ...
+* rspec .
