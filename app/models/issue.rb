@@ -1,4 +1,4 @@
 class Issue < ApplicationRecord
-	validates :code, presence: true
+	validates :number, presence: true
 	has_many :events
 end

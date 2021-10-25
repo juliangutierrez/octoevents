@@ -1,4 +1,4 @@
 class Event < ApplicationRecord
-	validates :action, presence: true
+	validates :action, :issue_id, presence: true
 	belongs_to :issue
 end
